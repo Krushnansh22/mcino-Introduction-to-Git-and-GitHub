@@ -1,0 +1,28 @@
+# Task 6 - repository fork metadata
+#
+# >>> NOT GENERATED YET <<<
+#
+# This file must contain the output of a real curl command against your fork.
+# After forking the IBM template and running scripts/publish.sh, run:
+#
+#   bash scripts/generate-evidence.sh Krushnansh22
+#
+# That command replaces this file with live output containing:
+#   "fork": true
+#   "parent": { "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub", ... }
+#
+# Command the script runs:
+#
+#   $ curl -s https://api.github.com/repos/Krushnansh22/mcino-Introduction-to-Git-and-GitHub
+#
+# Expected shape (abridged - the real response has many more fields):
+#
+# {
+#   "full_name": "Krushnansh22/mcino-Introduction-to-Git-and-GitHub",
+#   "html_url": "https://github.com/Krushnansh22/mcino-Introduction-to-Git-and-GitHub",
+#   "fork": true,
+#   "parent": {
+#     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+#     "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+#   }
+# }

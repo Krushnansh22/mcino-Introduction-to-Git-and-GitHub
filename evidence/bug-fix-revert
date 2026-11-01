@@ -1,0 +1,39 @@
+# Task 8 - pull request for the bug-fix-revert branch
+#
+# >>> NOT GENERATED YET <<<
+#
+# This file must contain the output of a real curl command against your pull
+# request. After opening the pull request (scripts/open-pr.sh prints the URL),
+# run:
+#
+#   bash scripts/generate-evidence.sh Krushnansh22
+#
+# That command replaces this file with live output containing:
+#   "state": "open" (or "closed" after merging)
+#   "head": { "ref": "bug-fix-revert", "repo": { "full_name": "Krushnansh22/mcino-Introduction-to-Git-and-GitHub", ... } }
+#   "base": { "ref": "main", "repo": { ... } }
+#
+# Command the script runs:
+#
+#   $ curl -s https://api.github.com/repos/Krushnansh22/mcino-Introduction-to-Git-and-GitHub/pulls/<number>
+#
+# Expected shape (abridged - the real response has many more fields):
+#
+# {
+#   "number": 1,
+#   "state": "open",
+#   "title": "Add troubleshooting section",
+#   "html_url": "https://github.com/Krushnansh22/mcino-Introduction-to-Git-and-GitHub/pull/1",
+#   "head": {
+#     "ref": "bug-fix-revert",
+#     "repo": {
+#       "full_name": "Krushnansh22/mcino-Introduction-to-Git-and-GitHub"
+#     }
+#   },
+#   "base": {
+#     "ref": "main",
+#     "repo": {
+#       "full_name": "Krushnansh22/mcino-Introduction-to-Git-and-GitHub"
+#     }
+#   }
+# }

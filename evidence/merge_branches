@@ -1,0 +1,7 @@
+$ git checkout main
+Switched to branch 'main'
+$ git merge bug-fix-typo
+Updating f253b3e..a483709
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
