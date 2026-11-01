@@ -111,4 +111,4 @@ documentation improvements, enhancements, and ideas are welcome.
 
 Licensed under the **Apache License 2.0**. See `LICENSE`.
 
-_© 2022 XYZ, Inc._
+_© 2023 XYZ, Inc._
