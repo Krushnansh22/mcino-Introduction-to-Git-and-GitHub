@@ -112,3 +112,11 @@ documentation improvements, enhancements, and ideas are welcome.
 Licensed under the **Apache License 2.0**. See `LICENSE`.
 
 _© 2023 XYZ, Inc._
+
+## Troubleshooting
+
+If the script reports `Permission denied`, make it executable first:
+
+```bash
+chmod +x simple-interest.sh
+```
