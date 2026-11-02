@@ -127,7 +127,7 @@ if git rev-parse --git-dir >/dev/null 2>&1; then
             bad "branch exists: $branch" "run scripts/setup-local-repo.sh --force"
         fi
     done
-    if git log --oneline main | grep -q 'Revert'; then
+    if [ -n "$(git log --oneline main | grep 'Revert')" ]; then
         ok "main contains a revert commit"
     else
         bad "main contains a revert commit" "expected the bug-fix-revert change to be reverted"
