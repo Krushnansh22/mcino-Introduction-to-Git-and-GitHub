@@ -101,7 +101,7 @@ has "github-branches: bug-fix-revert" evidence/github-branches "bug-fix-revert"
 
 if grep -q 'NOT GENERATED YET' evidence/forked-repo 2>/dev/null; then
     note "forked-repo: not generated yet" "run: bash scripts/generate-evidence.sh Krushnansh22"
-elif grep -qE '^  "fork": true' evidence/forked-repo 2>/dev/null; then
+elif grep -qE '"fork"[[:space:]]*:[[:space:]]*true' evidence/forked-repo 2>/dev/null; then
     ok "forked-repo: fork flag present"
 else
     bad "forked-repo: fork flag missing" "expected a live \"fork\": true field"
@@ -109,7 +109,7 @@ fi
 
 if grep -q 'NOT GENERATED YET' evidence/bug-fix-revert 2>/dev/null; then
     note "bug-fix-revert: not generated yet" "open the PR, then run scripts/generate-evidence.sh"
-elif grep -qE '^  "head": \{' evidence/bug-fix-revert 2>/dev/null; then
+elif grep -qE '"head"[[:space:]]*:[[:space:]]*\{' evidence/bug-fix-revert 2>/dev/null; then
     ok "bug-fix-revert: pull request JSON present"
 else
     bad "bug-fix-revert: pull request JSON missing" "expected a live \"head\" object"
