@@ -102,6 +102,19 @@ the calculator safe to call from other scripts.
 | `bug-fix-typo`    | Fixes the copyright year typo in the README footer (2022 → 2023) |
 | `bug-fix-revert`  | Demonstrates opening a pull request and then reverting it      |
 
+## Troubleshooting
+
+**The calculator rejects my input**
+Use non-negative numbers only, and a principal greater than zero. The script
+prints a short error message and exits with a non-zero status on bad input.
+
+**Permission denied when running the script**
+Make it executable first: `chmod +x simple-interest.sh`.
+
+**The merge says "Already up to date"**
+The branch was already merged. This is expected after `bug-fix-typo` has been
+merged into `main`.
+
 ## Contributing
 
 Read `CONTRIBUTING.md`. All contributions, bug reports, bug fixes,
