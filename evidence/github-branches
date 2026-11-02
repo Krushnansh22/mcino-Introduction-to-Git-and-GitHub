@@ -1,9 +1,17 @@
 $ git branch -vv
-  bug-fix-revert 369024e Add troubleshooting section to README
+  bug-fix-revert b3ef875 Add troubleshooting section to README
   bug-fix-typo   a483709 Fix copyright year typo in README footer
-* main           dbfa025 Add submission guide, helper scripts, tests, and merge evidence
+* main           127668d Fix pipefail false negative in validate.sh
 
 $ git branch -a
   bug-fix-revert
   bug-fix-typo
 * main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+$ git remote -v
+origin	git@github.com:Krushnansh22/mcino-Introduction-to-Git-and-GitHub.git (fetch)
+origin	git@github.com:Krushnansh22/mcino-Introduction-to-Git-and-GitHub.git (push)
